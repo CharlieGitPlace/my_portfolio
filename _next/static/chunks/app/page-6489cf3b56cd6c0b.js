@@ -902,9 +902,9 @@
                                       setTimeout(() => {
                                         f(!1);
                                         let e = document.createElement("a");
-                                        ((e.href = "Charlie_Smith_Resume.docx"),
+                                        ((e.href = "Charlie_Smith_Resume.pdf"),
                                           (e.download =
-                                            "Charlie_Smith_Resume.docx"),
+                                            "Charlie_Smith_Resume.pdf"),
                                           document.body.appendChild(e),
                                           e.click(),
                                           document.body.removeChild(e));
@@ -1691,11 +1691,12 @@
         $ = a(8940);
       let ee = [
         {
-          id: "Cardinal Peak ",
-          title: "Cardinal Peak ",
-          tagline: "Created custom Applications different Industries",
+          id: "GOODISET",
+          title: "GOODISET",
+          tagline:
+            "Mobile-first Shopping Experience for a Multilingual Product ",
           description:
-            "Migrated a legacy WordPress site to a React/Next.js headless architecture, reducing page load time from 1.5s to 0.3s through SSR, code splitting, and performance optimization, while improving SEO, scalability, and user experience.",
+            "Modernized a Shopify e-commerce platform with Next.js and PostgreSQL, achieving 80% faster page loads, while integrating an OpenAI-powered Alin AI assistant for automated insurance Q&A, customer request classification, and WhatsApp service escalation.",
           features: [
             "Integrated an AI-powered virtual assistant (Alin) into the BNP Paribas Cardif digital platform, enabling automated customer support, insurance-related Q&A, request classification, and seamless escalation to customer service through WhatsApp.",
             "Migrated a legacy WordPress platform to a React/Next.js headless CMS architecture using WordPress REST APIs.",
@@ -1715,19 +1716,18 @@
             "WPGraphQL",
             "PHP",
           ],
-          image: "./image-1788839734307.png",
+          image: "./image-1788839083641.png",
           architecture:
-            "OpenAI API <--> React.js & TypeScript  <--> Next.js & WPGraphQL Engine",
+            "Shopify Dashboard <--> React & TypeScript <--> PostgreSQL & Prisma <--> GA4 & Stripe",
           github: "https://github.com/Charlie21/Codeorbit",
-          demo: "https://bnpparibascardif.it/",
+          demo: "https://goodiset.com/",
         },
         {
-          id: "GOODISET",
-          title: "GOODISET",
-          tagline:
-            "Mobile-first Shopping Experience for a Multilingual Product ",
+          id: "Cardinal Peak ",
+          title: "Cardinal Peak ",
+          tagline: "Created custom Applications different Industries",
           description:
-            "Modernized a Shopify-based e-commerce platform with Next.js, PostgreSQL, Prisma, and Cloudflare, reduced page load times by 80% and TTFB from 600ms to under 100ms. Optimized database performance through a MySQL-to-PostgreSQL migration, streamlined backend APIs with caching, and accelerated the user experience through image optimization, animations, and CDN delivery.",
+            "Migrated a legacy WordPress site to a React/Next.js headless architecture, reducing page load time from 1.5s to 0.3s through SSR, code splitting, and performance optimization, while improving SEO, scalability, and user experience.",
           features: [
             "Rebuilt the frontend with Next.js SSR/ISR, reducing average page load time from 1.5s to 0.3s (80% improvement) and decreasing Time to First Byte (TTFB) from approximately 600ms to under 100ms through server-side rendering, edge caching, and optimized data-fetching strategies.",
             "Implemented advanced image optimization strategies including WebP/AVIF conversion, responsive image delivery, lazy loading, and automatic image resizing, reducing image payload sizes by up to 40–50% and improving Largest Contentful Paint (LCP).",
@@ -1742,11 +1742,11 @@
             "Shopify",
             "PHP",
           ],
-          image: "./Screenshot 2026-09-23 083641.png",
+          image: "./image-1788839734307.png",
           architecture:
-            "Shopify Dashboard <--> React & TypeScript <--> PostgreSQL & Prisma <--> GA4 & Stripe",
+            "OpenAI API <--> React.js & TypeScript  <--> Next.js & WPGraphQL Engine",
           github: "https://github.com/Charlie21/Codeorbit",
-          demo: "https://goodiset.com/",
+          demo: "https://bnpparibascardif.it/",
         },
         {
           id: "Chaunceyallpro",
@@ -1770,7 +1770,7 @@
             "Google Analytics",
             "SEO",
           ],
-          image: "./Screenshot 2026-09-23 090558.png",
+          image: "./image-1788834090558.png",
           architecture:
             "WordPress Dashboard <--> SEO <--> Google Map <--> Lead Conversion Optimization",
           github: "https://github.com/Charlie21/Codeorbit",
