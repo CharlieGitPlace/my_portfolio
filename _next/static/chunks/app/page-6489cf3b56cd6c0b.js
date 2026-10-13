@@ -659,47 +659,6 @@
             }),
           });
         },
-        Telegram = (e) => {
-          let { className: t } = e;
-          return (0, s.jsx)("svg", {
-            className: t,
-            viewBox: "0 0 24 24",
-            fill: "currentColor",
-            xmlns: "http://www.w3.org/2000/svg",
-            children: (0, s.jsx)("path", {
-              d: "M21.9 3.2 18.7 21c-.24 1.25-.92 1.56-1.87.97l-5.16-3.8-2.49 2.4c-.28.28-.51.51-1.04.51l.37-5.25 9.56-8.64c.42-.37-.09-.58-.65-.21L5.6 13.98.53 12.39c-1.1-.34-1.12-1.1.23-1.63L20.57 3.1c.92-.34 1.72.21 1.33.1z",
-            }),
-          });
-        },
-        Whatsapp = (e) => {
-          let { className: t } = e;
-          return (0, s.jsx)("svg", {
-            className: t,
-            viewBox: "0 0 24 24",
-            fill: "currentColor",
-            xmlns: "http://www.w3.org/2000/svg",
-            children: [
-              (0, s.jsx)("path", {
-                d: "M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.075-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z",
-              }),
-              (0, s.jsx)("path", {
-                d: "M12.004 2C6.478 2 2 6.477 2 12c0 1.762.458 3.417 1.257 4.877L2 22l5.273-1.382A9.96 9.96 0 0 0 12.004 22C17.523 22 22 17.523 22 12S17.523 2 12.004 2zm0 18c-1.575 0-3.102-.425-4.441-1.231l-.318-.189-3.129.82.835-3.052-.207-.33A7.963 7.963 0 0 1 4.004 12c0-4.411 3.589-8 8-8s7.996 3.589 7.996 8-3.585 8-7.996 8z",
-              }),
-            ],
-          });
-        },
-        Discord = (e) => {
-          let { className: t } = e;
-          return (0, s.jsx)("svg", {
-            className: t,
-            viewBox: "0 0 24 24",
-            fill: "currentColor",
-            xmlns: "http://www.w3.org/2000/svg",
-            children: (0, s.jsx)("path", {
-              d: "M19.54 4.41A16.37 16.37 0 0 0 15.5 3.16a.06.06 0 0 0-.07.03c-.17.3-.36.7-.5 1.02a15.07 15.07 0 0 0-5.86 0c-.14-.33-.34-.72-.51-1.02a.07.07 0 0 0-.07-.03 16.4 16.4 0 0 0-4.04 1.25.06.06 0 0 0-.03.02C1.85 8.28 1.15 12.07 1.5 15.82a.08.08 0 0 0 .03.05 16.5 16.5 0 0 0 4.97 2.5.08.08 0 0 0 .08-.03c.38-.52.72-1.07 1.01-1.65a.08.08 0 0 0-.04-.11 10.7 10.7 0 0 1-1.55-.74.08.08 0 0 1-.01-.13c.1-.08.21-.16.31-.24a.07.07 0 0 1 .07-.01c3.25 1.48 6.77 1.48 9.98 0a.07.07 0 0 1 .08.01c.1.08.21.16.31.24a.08.08 0 0 1-.01.13c-.49.29-1.01.54-1.55.74a.08.08 0 0 0-.04.11c.3.58.63 1.13 1.01 1.65a.08.08 0 0 0 .08.03 16.5 16.5 0 0 0 4.98-2.5.08.08 0 0 0 .03-.05c.42-4.35-.71-8.1-2.99-11.39a.06.06 0 0 0-.03-.02zM8.02 13.68c-.98 0-1.79-.9-1.79-2.01s.79-2.02 1.79-2.02 1.8.91 1.79 2.02c0 1.11-.79 2.01-1.79 2.01zm7.96 0c-.98 0-1.79-.9-1.79-2.01s.79-2.02 1.79-2.02 1.8.91 1.79 2.02c0 1.11-.79 2.01-1.79 2.01z",
-            }),
-          });
-        },
         C = (e) => {
           let { className: t } = e;
           return (0, s.jsxs)("svg", {
@@ -943,9 +902,9 @@
                                       setTimeout(() => {
                                         f(!1);
                                         let e = document.createElement("a");
-                                        ((e.href = "./media/Charlie_Smith_Resume.pdf"),
+                                        ((e.href = "Charlie_Smith_Resume.docx"),
                                           (e.download =
-                                            "./media/Charlie_Smith_Resume.pdf"),
+                                            "Charlie_Smith_Resume.docx"),
                                           document.body.appendChild(e),
                                           e.click(),
                                           document.body.removeChild(e));
@@ -989,23 +948,14 @@
                             label: "LinkedIn",
                           },
                           {
-                            icon: (0, s.jsx)(Telegram, {
-                              className: "w-4 h-4",
-                            }),
-                            url: "https://www.Telegram.com/charliesmith03",
-                            label: "Telegram",
+                            icon: (0, s.jsx)(S, { className: "w-4 h-4" }),
+                            url: "https://www.kaggle.com/charliesmith03",
+                            label: "Kaggle",
                           },
                           {
-                            icon: (0, s.jsx)(Whatsapp, {
-                              className: "w-4 h-4",
-                            }),
-                            url: "https://Whatsapp.com/u/9charliesmith4826",
-                            label: "Whatsapp",
-                          },
-                          {
-                            icon: (0, s.jsx)(Discord, { className: "w-4 h-4" }),
-                            url: "https://Discord.com/u/9charliesmith4826",
-                            label: "Discord",
+                            icon: (0, s.jsx)(k, { className: "w-4 h-4" }),
+                            url: "https://leetcode.com/u/9charliesmith4826",
+                            label: "LeetCode",
                           },
                           {
                             icon: (0, s.jsx)(C, { className: "w-4 h-4" }),
@@ -1069,7 +1019,7 @@
                             children: [
                               (0, s.jsx)(j.default, {
                                 srccet: "",
-                                src: "./media/charlie_photo.png",
+                                src: "./charlie_photo.png",
                                 alt: "Charlie Smith Avatar Hologram",
                                 fill: !0,
                                 priority: !0,
@@ -1399,13 +1349,13 @@
                                 "text-zinc-300 text-sm leading-relaxed mb-4",
                               children: [
                                 "I am a full-stack developer with over a decade of experience building web applications for both clients and internal teams.",
-                                "Specializing in JavaScript and TypeScript—particularly frameworks like Angular and React—I have successfully developed responsive user interfaces (UIs), internal tools, and practical applications across various industries.",
+                                 "Specializing in JavaScript and TypeScript—particularly frameworks like Angular and React—I have successfully developed responsive user interfaces (UIs), internal tools, and practical applications across various industries.",
                               ],
                             }),
                             (0, s.jsx)("p", {
                               className:
                                 "text-zinc-300 text-sm leading-relaxed",
-                              children: [
+                              children:[
                                 "I provide services that build cross-platform AI solutions by integrating the OpenAI API into existing websites and applications, such as WordPress sites, e-commerce platforms, and custom systems.",
                                 "Additionally, by connecting AI services with REST APIs, databases, and existing back-end systems, I enable the implementation of features like AI-powered chatbots, intelligent Q&A, customer support, and workflow automation, allowing for the integration of AI capabilities without requiring a complete platform overhaul.",
                               ],
@@ -1436,7 +1386,8 @@
                                 "p-4 border border-zinc-800/80 bg-zinc-900/40 rounded-xl font-mono text-[10px] text-zinc-300 tracking-wider flex items-center justify-between hover:border-zinc-700/80 transition-colors",
                               children: [
                                 (0, s.jsx)("span", {
-                                  children: "FOCUS: FULL-STAC + OpenAI API",
+                                  children:
+                                    "FOCUS: FULL-STAC + OpenAI API",
                                 }),
                                 (0, s.jsx)(O.Z, {
                                   className: "w-3.5 h-3.5 text-zinc-500",
@@ -1524,71 +1475,29 @@
         });
       }
       let W = [
-          {
-            name: "JavaScript (ES6+)",
-            category: "languages",
-            level: 88,
-            grade: "EXPERT",
-          },
-          {
-            name: "TypeScript",
-            category: "languages",
-            level: 80,
-            grade: "EXPERT",
-          },
-          { name: "PHP", category: "languages", level: 86, grade: "EXPERT" },
-          { name: "C/C++", category: "languages", level: 89, grade: "EXPERT" },
-          { name: "JAVA", category: "languages", level: 91, grade: "EXPERT" },
-          { name: "React", category: "Frontend", level: 85, grade: "EXPERT" },
-          { name: "Next.js", category: "Frontend", level: 83, grade: "EXPERT" },
-          { name: "Angular", category: "Frontend", level: 75, grade: "EXPERT" },
-          { name: "Node.js", category: "Backend", level: 84, grade: "EXPERT" },
-          {
-            name: "Express.js",
-            category: "Backend",
-            level: 74,
-            grade: "EXPERT",
-          },
-          { name: "CodeIgniter", category: "Backend", level: 84, grade: "EXPERT" },
-          { name: "Laravel", category: "Backend", level: 84, grade: "EXPERT" },
-          { name: "Spring", category: "Backend", level: 65, grade: "EXPERT" },
-          { name: "MySQL", category: "database", level: 93, grade: "EXPERT" },
-          {
-            name: "PostgreSQL",
-            category: "database",
-            level: 86,
-            grade: "EXPERT",
-          },
-          { name: "MongoDB", category: "database", level: 81, grade: "EXPERT" },
-          { name: "Prisma", category: "database", level: 75, grade: "EXPERT" },
-          {
-            name: "Mongoose",
-            category: "database",
-            level: 76,
-            grade: "EXPERT",
-          },
-          { name: "REST API", category: "API", level: 70, grade: "EXPERT" },
-          { name: "OpenAI API", category: "aiml", level: 89, grade: "EXPERT" },
-          { name: "AI Chatbot", category: "aiml", level: 85, grade: "EXPERT" },
-          {
-            name: "Git / GitHub",
-            category: "tools",
-            level: 88,
-            grade: "EXPERT",
-          },
-          {
-            name: "OpenAI Platform",
-            category: "tools",
-            level: 73,
-            grade: "EXPERT",
-          },
-          { name: "Docker", category: "tools", level: 76, grade: "EXPERT" },
-          {
-            name: "Vercel / AWS",
-            category: "tools",
-            level: 95,
-            grade: "EXPERT",
-          },
+        { name: "JavaScript (ES6+)", category: "languages", level: 88, grade: "EXPERT" },
+        { name: "TypeScript", category: "languages", level: 80, grade: "EXPERT" },
+        { name: "PHP", category: "languages", level: 86, grade: "EXPERT" },
+        { name: "C/C++", category: "languages", level: 89, grade: "EXPERT" },
+        { name: "JAVA", category: "languages", level: 91, grade: "EXPERT" },
+        { name: "React", category: "Frontend", level: 85, grade: "EXPERT" },
+        { name: "Next.js", category: "Frontend", level: 83, grade: "EXPERT" },
+        { name: "Angular", category: "Frontend", level: 75, grade: "EXPERT" },
+        { name: "Node.js", category: "Backend", level: 84, grade: "EXPERT" },
+        { name: "Express.js", category: "Backend", level: 74, grade: "EXPERT" },
+        { name: "Spring", category: "Backend", level: 65, grade: "EXPERT" },
+        { name: "MySQL", category: "database", level: 93, grade: "EXPERT" },
+        { name: "PostgreSQL", category: "database", level: 86, grade: "EXPERT" },
+        { name: "MongoDB", category: "database", level: 81, grade: "EXPERT" },
+        { name: "Prisma", category: "database", level: 75, grade: "EXPERT" },
+        { name: "Mongoose", category: "database", level: 76, grade: "EXPERT" },
+        { name: "REST API", category: "API", level: 70, grade: "EXPERT" },
+        { name: "OpenAI API", category: "aiml", level: 89, grade: "EXPERT" },
+        { name: "AI Chatbot", category: "aiml", level: 85, grade: "EXPERT" },
+        { name: "Git / GitHub", category: "tools", level: 88, grade: "EXPERT" },
+        { name: "OpenAI Platform", category: "tools", level: 73, grade: "EXPERT" },
+        { name: "Docker", category: "tools", level: 76, grade: "EXPERT" },
+        { name: "Vercel / AWS", category: "tools", level: 95, grade: "EXPERT" },
         ],
         q = [
           { id: "all", label: "ALL" },
@@ -1782,12 +1691,11 @@
         $ = a(8940);
       let ee = [
         {
-          id: "GOODISET",
-          title: "GOODISET",
-          tagline:
-            "Mobile-first Shopping Experience for a Multilingual Product ",
+          id: "Cardinal Peak ",
+          title: "Cardinal Peak ",
+          tagline: "Created custom Applications different Industries",
           description:
-            "Modernized a Shopify e-commerce platform with Next.js and PostgreSQL, achieving 80% faster page loads, while integrating an OpenAI-powered Alin AI assistant for automated insurance Q&A, customer request classification, and WhatsApp service escalation.",
+            "Migrated a legacy WordPress site to a React/Next.js headless architecture, reducing page load time from 1.5s to 0.3s through SSR, code splitting, and performance optimization, while improving SEO, scalability, and user experience.",
           features: [
             "Integrated an AI-powered virtual assistant (Alin) into the BNP Paribas Cardif digital platform, enabling automated customer support, insurance-related Q&A, request classification, and seamless escalation to customer service through WhatsApp.",
             "Migrated a legacy WordPress platform to a React/Next.js headless CMS architecture using WordPress REST APIs.",
@@ -1807,18 +1715,19 @@
             "WPGraphQL",
             "PHP",
           ],
-          image: "./media/GOODISET.png",
+          image: "./image-1788839734307.png",
           architecture:
             "OpenAI API <--> React.js & TypeScript  <--> Next.js & WPGraphQL Engine",
           github: "https://github.com/Charlie21/Codeorbit",
-          demo: "https://goodiset.com/",
+          demo: "https://bnpparibascardif.it/",
         },
         {
-          id: "Cardinal Peak ",
-          title: "Cardinal Peak ",
-          tagline: "Created custom Applications different Industries",
+          id: "GOODISET",
+          title: "GOODISET",
+          tagline:
+            "Mobile-first Shopping Experience for a Multilingual Product ",
           description:
-            "Migrated a legacy WordPress site to a React/Next.js headless architecture, reducing page load time from 1.5s to 0.3s through SSR, code splitting, and performance optimization, while improving SEO, scalability, and user experience.",
+            "Modernized a Shopify-based e-commerce platform with Next.js, PostgreSQL, Prisma, and Cloudflare, reduced page load times by 80% and TTFB from 600ms to under 100ms. Optimized database performance through a MySQL-to-PostgreSQL migration, streamlined backend APIs with caching, and accelerated the user experience through image optimization, animations, and CDN delivery.",
           features: [
             "Rebuilt the frontend with Next.js SSR/ISR, reducing average page load time from 1.5s to 0.3s (80% improvement) and decreasing Time to First Byte (TTFB) from approximately 600ms to under 100ms through server-side rendering, edge caching, and optimized data-fetching strategies.",
             "Implemented advanced image optimization strategies including WebP/AVIF conversion, responsive image delivery, lazy loading, and automatic image resizing, reducing image payload sizes by up to 40–50% and improving Largest Contentful Paint (LCP).",
@@ -1833,11 +1742,11 @@
             "Shopify",
             "PHP",
           ],
-          image: "./media/CardinalPeak.png",
+          image: "./Screenshot 2026-09-23 083641.png",
           architecture:
             "Shopify Dashboard <--> React & TypeScript <--> PostgreSQL & Prisma <--> GA4 & Stripe",
           github: "https://github.com/Charlie21/Codeorbit",
-          demo: "https://bnpparibascardif.it/",
+          demo: "https://goodiset.com/",
         },
         {
           id: "Chaunceyallpro",
@@ -1861,7 +1770,7 @@
             "Google Analytics",
             "SEO",
           ],
-          image: "./media/Chaunceyallpro.png",
+          image: "./Screenshot 2026-09-23 090558.png",
           architecture:
             "WordPress Dashboard <--> SEO <--> Google Map <--> Lead Conversion Optimization",
           github: "https://github.com/Charlie21/Codeorbit",
@@ -1880,7 +1789,7 @@
             "Designed reusable AI integration architectures that can extend WordPress, e-commerce platforms, and custom web applications with minimal changes.",
           ],
           tech: ["OpenAI API", "JavaScript", "PHP", "JAVA", "C#"],
-          image: "./media/AIIntegration.webp",
+          image: "./image-15-1024x538.webp",
           architecture: "existing websites <--> OpenAI API",
           github: "https://github.com/Charlie21",
           demo: false,
@@ -2203,7 +2112,7 @@
                                           className:
                                             "relative w-full max-w-[420px] h-full",
                                           children: (0, s.jsx)(j.default, {
-                                            src: "./AIIntegration.webp",
+                                            src: "./codeorbit_logo.webp",
                                             alt: "CodeOrbit Logo",
                                             fill: !0,
                                             className: "object-contain",
@@ -2415,23 +2324,24 @@
       let ei = [
         {
           id: 1,
-          company: "GOODISET",
-          role: "Senior Full-Stack Developer",
-          location: "New YORK, USA",
-          duration: "May 2023 – Apr 2025",
+          company: "Softeq ",
+          role: "Junior Software Developer",
+          location: "Houston, Texas",
+          duration: "Oct 2020 – Jul 2022",
           points: [
-            "Integrated Alin AI into BNP Paribas Cardif’s platform using OpenAI API for insurance Q&A, request classification, and WhatsApp support escalation.",
-            "Developed a React and Node.js application for over 50,000 users and reduced page loading times by 35%.",
-            "Participated in code reviews, testing, deployments, and technical discussions. Enhanced existing application functionality through code optimization and technical improvements",
+            "Assisted with development of web, desktop, and mobile application projects.",
+            "Built frontend features and supported backend development tasks.",
+            "Worked with senior developers on debugging, testing, and application improvements.",
+            "Helped maintain existing software systems and resolve technical issues.",
           ],
-          icon: (0, s.jsx)(G.Z, { className: "w-4 h-4 text-cyan-400" }),
+          icon: (0, s.jsx)(ea.Z, { className: "w-4 h-4 text-blue-400" }),
         },
         {
           id: 2,
           company: "Cardinal Peak",
           role: "Full-Stack Developer",
           location: "Lafayette, Colorado",
-          duration: "Jul 2021 – May 2023",
+          duration: "Jul 2022 – May 2023",
           points: [
             "Developed frontend components, backend services, and database integrations.",
             "Worked on application design, feature implementation, testing, and troubleshooting.",
@@ -2443,28 +2353,12 @@
         {
           id: 3,
           company: "Chaunceyallpro",
-          role: "Junior Developer",
-          location: "Houston, Texas",
-          duration: "Oct 2019 – Jul 2021",
+          role: "Senior Developer",
+          location: "New YORK, USA",
+          duration: "May 2023 – Apr 2025",
           points: [
-            "Assisted with development of web, desktop, and mobile application projects.",
-            "Built frontend features and supported backend development tasks.",
-            "Worked with senior developers on debugging, testing, and application improvements.",
-            "Helped maintain existing software systems and resolve technical issues.",
-          ],
-          icon: (0, s.jsx)(ea.Z, { className: "w-4 h-4 text-blue-400" }),
-        },
-        {
-          id: 4,
-          company: "LassMichDasMachen",
-          role: "Full-Stack Developer",
-          location: "Hechingen, Germany",
-          duration: "Apr 2016 – Oct 2019",
-          points: [
-            "Developed a WordPress-based hotel management CMS using custom PHP/JavaScript modules for rooms, availability, rates, offers, restaurant, spa, and tourism content.",
-            "Built a custom booking engine with REST APIs, API authentication, availability checks, reservations, cancellations, and booking workflow management.",
-            "Integrated multiple payment gateways, multilingual content, SEO plugins, XML sitemaps, structured data, and localized SEO.",
-            "Implemented HTTPS, reCAPTCHA, role-based access control, input validation, and secure payment/API workflows.",
+            "Developed a React and Node.js application for over 50,000 users and reduced page loading times by 35%.",
+            "Participated in code reviews, testing, deployments, and technical discussions. Enhanced existing application functionality through code optimization and technical improvements",
           ],
           icon: (0, s.jsx)(G.Z, { className: "w-4 h-4 text-cyan-400" }),
         },
@@ -2756,7 +2650,8 @@
           [a, l] = (0, r.useState)(null);
         return (0, s.jsxs)("section", {
           id: "achievements",
-          className: "", //"relative min-h-screen py-24 flex items-center justify-center overflow-hidden border-t border-zinc-900 bg-[#07070a]",
+          className:
+            "",//"relative min-h-screen py-24 flex items-center justify-center overflow-hidden border-t border-zinc-900 bg-[#07070a]",
           children: [
             (0, s.jsx)("div", {
               className:
@@ -3517,8 +3412,7 @@
                                 (0, s.jsx)("span", {
                                   className:
                                     "font-semibold text-[11px] text-white tracking-wide uppercase",
-                                  children:
-                                    "Los Angeles, California, United States",
+                                  children: "Prayagraj, Uttar Pradesh, India",
                                 }),
                               ],
                             }),
@@ -3531,7 +3425,7 @@
                               label: "Email Address",
                               val: "viscra0101@gmail.com",
                             },
-                            { label: "Phone", val: "+1(858)323-3353" },
+                            { label: "Phone", val: "+91-6307601115" },
                           ].map((e, t) =>
                             (0, s.jsxs)(
                               "div",
@@ -3781,27 +3675,23 @@
           { label: "\uD83D\uDE80 Who is Charlie?", query: "who is charlie" },
           { label: "\uD83D\uDCBB Core Tech Stack?", query: "tech stack" },
           {
-            label: "\uD83D\uDD2C Career Internships?",
-            query: "Career internships",
+            label: "\uD83D\uDD2C Research Internships?",
+            query: "research internships",
           },
-          { 
-            label: "\uD83D\uDCC2 Best Projects?", query: "projects",
-          },
+          { label: "\uD83D\uDCC2 Best Projects?", query: "projects" },
           { label: "\uD83D\uDCEC Contact Details?", query: "contact" },
         ],
         eN = {
           charlie:
-            "He builds high-performance web applications with React, Angular, JavaScript, and TypeScript, and integrates OpenAI-powered AI features into existing websites and systems. From AI chatbots and intelligent Q&A to API integrations and workflow automation, he delivers practical AI solutions without requiring a complete platform rebuild.",
+            "Charlie Smith is a Software Engineer, Full Stack Developer, and AI Engineer pursuing his BTech in CSE (AI & Data Science) at IIIT Manipur. He specializes in designing robust full-stack applications, intelligent AI pipelines, and high-performance algorithms.",
           "tech stack":
-            "Charlie's primary technical stack covers:\n• Frontend: React, Next.js (latest), TypeScript, Tailwind CSS\n• Backend: Node.js, Express.js, REST APIs\n• Databases: MongoDB, PostgreSQL, MySQL\n• Languages: JavaScript, Python, C++\n• Tools: Git, Docker, Linux, GCP, Firebase, Vercel",
-          "career internships":
-            "Charlie has over 10 years of professional experience as a Full-Stack Developer, specializing in JavaScript, TypeScript, React, Angular, Next.js, WordPress, and OpenAI API integration. His experience includes building scalable web applications, migrating legacy platforms to modern headless architectures, optimizing performance and SEO, and developing AI-powered chatbots, customer support systems, and workflow automation solutions. He has worked across diverse industries, delivering both client-facing products and internal business applications.",
-          "yes":
-            "AI Virtual Assistant for BNP Paribas Cardif — Integrated OpenAI API with React/TypeScript to build an AI-powered assistant for customer support, insurance Q&A, request classification, and WhatsApp escalation. \n            WordPress → React/Next.js Migration — Migrated a legacy WordPress platform to a headless architecture, reducing page load time from 1.5s to 0.3s (80% improvement) while improving SEO, Core Web Vitals, scalability, and maintainability. \n            AI-Powered Home Services Platform — Built a WordPress/PHP platform with AI chatbot, RAG-based Q&A, booking, lead generation, Google Maps, and SEO features, reducing page load time by 63% and TTFB by 74%. \n            OpenAI Integration for Existing Applications — Developed reusable AI integration solutions connecting OpenAI with websites, REST APIs, databases, and existing backend systems, enabling AI chat, intelligent Q&A, customer support, and workflow automation without major platform rebuilds.",
+            "My primary technical stack covers:\n• Frontend: React, Next.js (latest), TypeScript, Tailwind CSS\n• Backend: Node.js, Express.js, REST APIs\n• Databases: MongoDB, PostgreSQL, MySQL\n• Languages: JavaScript, Python, C++\n• Tools: Git, Docker, Linux, GCP, Firebase, Vercel",
+          "research internships":
+            "I have completed two prestigious research internships:\n1. IIIT Vadodara (2026 - Present): Focused on backend-driven data workflows, algorithm optimizations, and high-scalability indexing.\n2. NIT Warangal (Dec 2025 - Jan 2026): Designed system optimization models and conducted performance comparative analyses.",
           projects:
-            "Charlie has worked on a wide range of projects, from enterprise web platforms and WordPress-based business solutions to modern React/Next.js applications and AI-powered systems. His work includes full-stack development, legacy platform modernization, performance and SEO optimization, API integrations, and OpenAI-based AI solutions for customer support, intelligent Q&A, and workflow automation. Would you like to see more details about his key projects and technical contributions? ",
+            "My flagship products include:\n1. CodeOrbit: Unified coding performance dashboard aggregating GitHub, LeetCode, etc., with Groq LLAMA-3 AI recommendations.\n2. ScholarSynth: AI Research Paper Analyzer leveraging Google Gemini APIs to summarize papers and compile quizzes.\n3. Food Redistribution: MERN platform coordinating surplus food collections for NGOs.",
           contact:
-            "Let's build something extraordinary! You can reach me here:\n• Location: Los Angeles, California, United States\n• Email: viscra0101@gmail.com\n(You can also use the contact form below or reach out via LinkedIn/GitHub links)",
+            "Let's build something extraordinary! You can reach me here:\n• Location: Prayagraj, India\n• Email: viscra0101@gmail.com\n(You can also use the contact form below or reach out via LinkedIn/GitHub links)",
           hire: "I am actively seeking Software Engineer, Full Stack Developer, and AI Engineer positions! I bring rich React skills, research-backed system thinking, and MERN database proficiency to high-growth teams.",
         };
       function eE() {

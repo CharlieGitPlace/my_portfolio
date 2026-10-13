@@ -1077,7 +1077,7 @@
                   {
                     precedence: "dynamic",
                     rel: "stylesheet",
-                    href: i.assetPrefix + encodeURI(t),
+                    href: i.assetPrefix + "/_next/" + encodeURI(t),
                     as: "style",
                   },
                   t,

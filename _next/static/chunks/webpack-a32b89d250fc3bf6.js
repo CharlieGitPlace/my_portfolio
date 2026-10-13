@@ -234,10 +234,10 @@
     !/(?:^|;\s)__vercel_toolbar=1(?:;|$)/.test (document.cookie)
   )
     return;
-  // var s = document.createElement ('script');
-  // s.src = '../vercel.live/_next-live/feedback/feedback.js';
-  // s.setAttribute ('data-explicit-opt-in', 'true');
-  // s.setAttribute ('data-cookie-opt-in', 'true');
-  // s.setAttribute ('data-deployment-id', 'dpl_7NyL9o2Sh8E6StH5vB6BP58KFGyF');
-  // (document.head || document.documentElement).appendChild (s);
+  var s = document.createElement ('script');
+  s.src = '../vercel.live/_next-live/feedback/feedback.js';
+  s.setAttribute ('data-explicit-opt-in', 'true');
+  s.setAttribute ('data-cookie-opt-in', 'true');
+  s.setAttribute ('data-deployment-id', 'dpl_7NyL9o2Sh8E6StH5vB6BP58KFGyF');
+  (document.head || document.documentElement).appendChild (s);
 }) ();
