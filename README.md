@@ -47,7 +47,7 @@ I provide services that build cross-platform AI solutions by integrating the Ope
 * **Email**: [viscra0101@gmail.com](mailto:viscra0101@gmail.com)
 * **LinkedIn**: [linkedin.com/in/charliesmithdev](https://www.linkedin.com/in/charliesmithdev/)
 * **GitHub**: [github.com/CharlieGitPlace](https://github.com/CharlieGitPlace)
-* **Telegram**: [telegram.com/@tele_viscra]
+* **Telegram**: [telegram.com/@tele_viscra](https://telegram.com/@tele_viscra)
 
 ---
 

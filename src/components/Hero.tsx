@@ -390,11 +390,11 @@ export default function Hero() {
             className="flex items-center space-x-4 pt-4"
           >
             {[
-              { icon: <GithubIcon className="w-4 h-4" />, url: "https://github.com/Charlie21", label: "Github" },
-              { icon: <LinkedinIcon className="w-4 h-4" />, url: "https://www.linkedin.com/in/charliesmith/", label: "LinkedIn" },
-              { icon: <TelegramIcon className="w-4 h-4" />, url: "https://www.kaggle.com/charliesmith03", label: "Telegram" },
-              { icon: <WhatsAppIcon className="w-4 h-4" />, url: "https://www.kaggle.com/charliesmith03", label: "WhatsApp" },
-              { icon: <DiscordIcon className="w-4 h-4" />, url: "https://leetcode.com/u/9charliesmith4826", label: "Discord" },
+              { icon: <GithubIcon className="w-4 h-4" />, url: "https://github.com/CharlieGitPlace", label: "Github" },
+              { icon: <LinkedinIcon className="w-4 h-4" />, url: "https://www.linkedin.com/in/charliesmithdev/", label: "LinkedIn" },
+              { icon: <TelegramIcon className="w-4 h-4" />, url: "https://www.telegram.com/@tele_viscra", label: "Telegram" },
+              { icon: <WhatsAppIcon className="w-4 h-4" />, url: "https://whatsapp.com/charliesmith", label: "WhatsApp" },
+              { icon: <DiscordIcon className="w-4 h-4" />, url: "https://discord.com/@viscra0101", label: "Discord" },
               { icon: <MailIcon className="w-4 h-4" />, url: "mailto:viscra0101@gmail.com", label: "Email" },
             ].map((soc, idx) => (
               <a
