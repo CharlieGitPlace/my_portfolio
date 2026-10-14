@@ -392,7 +392,7 @@ export default function Hero() {
             {[
               { icon: <GithubIcon className="w-4 h-4" />, url: "https://github.com/CharlieGitPlace", label: "Github" },
               { icon: <LinkedinIcon className="w-4 h-4" />, url: "https://www.linkedin.com/in/charliesmithdev/", label: "LinkedIn" },
-              { icon: <TelegramIcon className="w-4 h-4" />, url: "https://www.telegram.com/@tele_viscra", label: "Telegram" },
+              { icon: <TelegramIcon className="w-4 h-4" />, url: "https://t.me/tele_viscra", label: "Telegram" },
               { icon: <WhatsAppIcon className="w-4 h-4" />, url: "https://whatsapp.com/charliesmith", label: "WhatsApp" },
               { icon: <DiscordIcon className="w-4 h-4" />, url: "https://discord.com/@viscra0101", label: "Discord" },
               { icon: <MailIcon className="w-4 h-4" />, url: "mailto:viscra0101@gmail.com", label: "Email" },
