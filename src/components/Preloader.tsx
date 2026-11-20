@@ -125,7 +125,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
                 <div className="w-1.5 h-1.5 rounded-full bg-green-500/60" />
               </div>
               <div className="text-cyber-cyan/50 pb-1 border-b border-cyber-cyan/10 mb-1 flex items-center justify-between">
-                <span>TERMINAL_OUTPUT // ARUN_BOOT_LOG</span>
+                <span>TERMINAL_OUTPUT // CAHRLIE_BOOT_LOG</span>
                 <span className="animate-pulse">● REC</span>
               </div>
               <div className="flex-1 overflow-y-auto space-y-1 scrollbar-none pr-1">
