@@ -253,7 +253,7 @@ export default function TerminalContact() {
               <div className="border-t border-zinc-900 pt-3 flex flex-col space-y-1.5 text-left z-10 relative">
                 <span className="font-mono text-[8px] text-zinc-500">CURRENT_LOC:</span>
                 <span className="font-semibold text-[11px] text-white tracking-wide uppercase">
-                  Prayagraj, Uttar Pradesh, India
+                  St Apt 10 jamestoown Ca
                 </span>
               </div>
             </motion.div>
