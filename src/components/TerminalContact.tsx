@@ -246,7 +246,7 @@ export default function TerminalContact() {
                 <div className="absolute w-2 h-2 bg-blue-500 rounded-full animate-ping" style={{ transform: "translate(20px, -15px)" }} />
                 <div className="absolute w-1.5 h-1.5 bg-indigo-500 rounded-full" style={{ transform: "translate(20px, -15px)" }} />
                 <span className="absolute text-[8px] text-zinc-400 font-mono" style={{ transform: "translate(60px, -30px)" }}>
-                  LAT_25.4358 <br/> LNG_81.8463
+                  LAT_37.9539 <br/> LNG_-120.4229
                 </span>
               </div>
 
