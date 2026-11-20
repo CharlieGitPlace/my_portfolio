@@ -8,6 +8,7 @@ Welcome to my personal developer headquarters and systems architecture showcase.
 ---
 
 ## 🙋‍♂️ About Me
+
 I am A seasoned Full-Stack Developer with over a decade of experience designing, developing, and maintaining scalable web applications for clients and internal teams. 
 
 I provide services that build cross-platform AI solutions by integrating the OpenAI API into existing websites and applications, such as WordPress sites, e-commerce platforms, and custom systems.
@@ -31,6 +32,7 @@ I provide services that build cross-platform AI solutions by integrating the Ope
 * **Overview**: Developed and optimized a WordPress-based home-services platform with custom booking, lead generation, Google Maps, and SEO features, reducing page load time by 63% (2.4s → 0.9s) and TTFB by 74% (700ms → 180ms).
 * **Live Preview**: [chaunceyallpro.com](https://chaunceyallpro.com)
 ---
+
 
 ## 🛠️ Technical Skill Matrix
 
