@@ -454,7 +454,7 @@ export default function Hero() {
             <div className="absolute bottom-6 right-6 z-20 font-mono text-[8px] text-zinc-500 tracking-wider text-right">
               <span>SYS_SYNC: OK</span>
               <br />
-              <span>FACIAL_ID: ARUN_T</span>
+              <span>FACIAL_ID: CHARLIE_S</span>
             </div>
           </motion.div>
         </div>
