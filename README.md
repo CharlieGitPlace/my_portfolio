@@ -1,4 +1,4 @@
-# 🌌 Charli Smith — Personal Portfolio Website
+# 🌌 Charlie Smith — Personal Portfolio Website
 
 Welcome to my personal developer headquarters and systems architecture showcase. This repository contains the source code for my premium, responsive portfolio website, designed with a high-end obsidian glassmorphic UI, fluid motion physics, and sleek minimalist layouts.
 

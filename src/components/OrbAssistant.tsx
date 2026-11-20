@@ -41,7 +41,7 @@ export default function OrbAssistant() {
     {
       id: "welcome",
       sender: "ai",
-      text: "Neural connection secure. I am ARUN_AI_BOT v1.0. How can I assist your investigation of Charlie's portfolio?",
+      text: "Neural connection secure. I am CHARLIE_AI_BOT v1.0. How can I assist your investigation of Charlie's portfolio?",
     },
   ]);
   const [inputValue, setInputValue] = useState("");
