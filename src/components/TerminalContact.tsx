@@ -206,7 +206,7 @@ export default function TerminalContact() {
             </motion.div>
           </div>
 
-          {/* Right Pane: Holographic Coordinate Map Representing Prayagraj */}
+          {/* Right Pane: Holographic Coordinate Map Representing jamestown Ca */}
           <div className="lg:col-span-5 flex flex-col justify-between h-full space-y-4 w-full">
             
             {/* Custom high-tech SVG vector coordinate map */}
@@ -223,7 +223,7 @@ export default function TerminalContact() {
                 <span className="font-mono text-[9px] text-zinc-400 font-bold tracking-wider">
                   GEOMETRIC RADAR TELEMETRY
                 </span>
-                <span className="text-[8px] text-zinc-555 font-mono">NODE: PRAYAGRAJ_IN</span>
+                <span className="text-[8px] text-zinc-555 font-mono">NODE: jamestown_Ca</span>
               </div>
 
               {/* Radar Coordinate Map Overlay graphic */}
@@ -242,7 +242,7 @@ export default function TerminalContact() {
                   transition={{ repeat: Infinity, duration: 4, ease: "linear" }}
                 />
 
-                {/* target blinking coordinate node represent Prayagraj */}
+                {/* target blinking coordinate node represent jamestown Ca */}
                 <div className="absolute w-2 h-2 bg-blue-500 rounded-full animate-ping" style={{ transform: "translate(20px, -15px)" }} />
                 <div className="absolute w-1.5 h-1.5 bg-indigo-500 rounded-full" style={{ transform: "translate(20px, -15px)" }} />
                 <span className="absolute text-[8px] text-zinc-400 font-mono" style={{ transform: "translate(60px, -30px)" }}>
@@ -253,7 +253,7 @@ export default function TerminalContact() {
               <div className="border-t border-zinc-900 pt-3 flex flex-col space-y-1.5 text-left z-10 relative">
                 <span className="font-mono text-[8px] text-zinc-500">CURRENT_LOC:</span>
                 <span className="font-semibold text-[11px] text-white tracking-wide uppercase">
-                  St Apt 10 jamestoown Ca
+                  St Apt 10 jamestown Ca
                 </span>
               </div>
             </motion.div>
